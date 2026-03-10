@@ -22,5 +22,5 @@ HAL is a simple license designed for distributing digital assets such as images,
 
 ## License
 
-- [LICENSE-EN](/LICENSE-EN.txt)
-- [LICENSE-JP](/LICENSE-JP.txt)
+- [English v1](/v1/LICENSE-en.txt)
+- [日本語 v1](/v1/LICENSE-ja.txt)
