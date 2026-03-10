@@ -1,0 +1,22 @@
+<!-- arg: title, lang? -->
+<!doctype html>
+<html lang="{{ page.lang }}">
+
+<head>
+	{% capture full_title %} Hatuna Asset License (HAL) | {{ page.title }} {% endcapture %}
+	{% include meta.html title=full_title description="Hatuna Asset License (HAL)" %}
+</head>
+
+<body>
+	{% capture body %}
+	<header>
+		<h1>Hatuna Asset License (HAL)</h1>
+	</header>
+	<main>
+		{{ content }}
+	</main>
+	{% endcapture %}
+	{% include card.html content=body %}
+</body>
+
+</html>

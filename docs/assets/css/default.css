@@ -1,0 +1,84 @@
+:root {
+  --background-color: #f8f7f2;
+  --content-background-color: #fff;
+  --text-color: #222;
+  --accent-color: #2980af;
+  --5-grey: #555;
+  --a-grey: #aaa;
+  --c-grey: #ccc;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body {
+  margin: 0px;
+  font-size: 0px;
+  color: var(--text-color);
+  background-color: var(--backgroud-color);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline 1px;
+  text-underline-offset: 3px;
+}
+
+ul {
+  margin: 5px 0px;
+  padding-left: 25px;
+  color: var(--5-grey);
+}
+
+/* header */
+header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--c-grey);
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+header p {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--5-grey);
+}
+
+/* main */
+main {
+  padding: 10px 0px;
+  font-size: 16px;
+}
+
+main h1 {
+  margin-top: 10px;
+}
+
+/* card */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.wrapper {
+  padding: 20px;
+  min-height: 100%;
+  width: 100%;
+  max-width: 700px;
+  background-color: var(--content-backgroud-color);
+  border: 1px solid var(--a-grey);
+  border-radius: 20px;
+}

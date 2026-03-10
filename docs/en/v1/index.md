@@ -1,0 +1,42 @@
+---
+layout: license
+lang: en
+title: v1
+version: 1
+date: 2026-3-6
+---
+
+# Article 1 (Purpose)
+
+This license defines the terms of use for distributed digital assets, including images, audio, video, text, and other digital materials and their derivatives (hereinafter referred to as the "Assets").
+
+# Article 2 (Permissions)
+
+You are permitted to use the Assets under the following conditions:
+
+- Credit attribution is not required.
+- You may freely modify, edit, combine, or transform the Assets.
+- The Assets may be used for both commercial and non-commercial purposes, except in cases described in Article 3.
+
+# Article 3 (Prohibited Uses)
+
+You may not:
+
+- Selling the Assets themselves, or selling modified versions where the Assets constitute the primary value of the product.
+- Falsely claiming authorship of the Assets or misrepresenting copyright ownership.
+- Using the Assets for defamatory, illegal, or socially harmful purposes.
+
+# Article 4 (Redistribution)
+
+Redistribution of the Assets, including modified versions, is permitted under the following conditions:
+
+- This license must be included or clearly inherited.
+- The original source (site name or URL) must be credited.
+
+# Article 5 (Disclaimer)
+
+The website and the author assume no responsibility for any damages, losses, or disputes arising from the use, redistribution, or modification of the Assets. Use them at your own risk.
+
+# Article 6 (License Version)
+
+Assets are governed by the version of this license that was in effect at the time of distribution.
