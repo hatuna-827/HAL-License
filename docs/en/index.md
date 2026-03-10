@@ -6,4 +6,4 @@ title: English
 
 # English
 
-- [Version 1](/en/v1)
+- [Version 1](v1)

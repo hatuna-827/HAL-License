@@ -4,5 +4,5 @@ title: Top
 ---
 
 Select language
-- [日本語](/ja)
-- [English](/en)
+- [日本語](ja)
+- [English](en)

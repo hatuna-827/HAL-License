@@ -6,4 +6,4 @@ title: 日本語
 
 # 日本語
 
-- [Version 1](/ja/v1)
+- [Version 1](v1)
