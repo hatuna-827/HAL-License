@@ -10,7 +10,10 @@
 <body>
 	{% capture body %}
 	<header>
-		<h1>Hatuna Asset License (HAL)</h1>
+		<h1>
+			{% include back.html %}
+			Hatuna Asset License (HAL)
+		</h1>
 		<p>Version: {{ page.version }}</p>
 		<p>Date: {{ page.date | date_to_long_string }}</p>
 	</header>

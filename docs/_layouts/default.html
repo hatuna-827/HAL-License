@@ -10,7 +10,12 @@
 <body>
 	{% capture body %}
 	<header>
-		<h1>Hatuna Asset License (HAL)</h1>
+		<h1>
+			{% if page.non_back != true %}
+			{% include back.html %}
+			{% endif %}
+			Hatuna Asset License (HAL)
+		</h1>
 	</header>
 	<main>
 		{{ content }}
