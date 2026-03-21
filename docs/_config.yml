@@ -1,5 +1,5 @@
 title: Hatuna Asset License (HAL)
 description: A simple license for digital assets
-baseurl: "/HAL-License"
-url: "https://hatuna-827.github.io"
+baseurl: '/HAL-License'
+url: 'https://hatuna-827.github.io'
 markdown: kramdown
