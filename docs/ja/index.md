@@ -7,3 +7,4 @@ title: 日本語
 # 日本語
 
 - [Version 1](v1)
+- [ライセンス比較](compare)
