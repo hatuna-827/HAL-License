@@ -44,6 +44,12 @@ header p {
 	color: var(--5-grey);
 }
 
+header img {
+	margin-right: 5px;
+	width: 36px;
+	height: 36px;
+}
+
 /* back */
 #back {
 	position: relative;
