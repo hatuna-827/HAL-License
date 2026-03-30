@@ -32,6 +32,7 @@ header {
 header h1 {
 	display: flex;
 	font-size: 25px;
+	align-items: center;
 }
 
 header a {
