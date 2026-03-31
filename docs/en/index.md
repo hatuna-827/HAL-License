@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-title: English
+title: Top
 ---
 
 [Change language](..)
