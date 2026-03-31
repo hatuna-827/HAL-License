@@ -1,10 +1,10 @@
 ---
 layout: default
 lang: ja
-title: 日本語
+title: トップ
 ---
 
-# 日本語
+[Change language](..)
 
 - [Version 1](v1)
 - [ライセンス比較](compare)

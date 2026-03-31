@@ -4,7 +4,7 @@ lang: en
 title: English
 ---
 
-# English
+[Change language](..)
 
 - [Version 1](v1)
 - [License Comparison](compare)
