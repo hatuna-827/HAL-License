@@ -6,22 +6,24 @@
     {{ page.title }} | 日本語
   {%- elsif page.lang == 'en' -%}
     {{ page.title }} | English
+  {%- else -%}
+    {{ page.title }}
   {%- endif -%}
 {%- endcapture -%}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="author" content="hatuna-827" />
-<meta name="description" content="{{ description }}" />
+<meta name="description" content="{{ title }}" />
 <meta property="og:url" content="{{ '/' | relative_url }}" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{ title }}" />
-<meta property="og:description" content="{{ description }}" />
+<meta property="og:title" content="{{ description }}" />
+<meta property="og:description" content="" />
 <meta property="og:site_name" content="Hatuna Asset License (HAL)" />
 <meta property="og:image" content="{{ '/assets/image/1024.png' | relative_url }}" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:domain" content="hatuna-827.github.io" />
-<meta name="twitter:title" content="{{ title }}" />
-<meta name="twitter:description" content="{{ description }}" />
+<meta name="twitter:title" content="{{ description }}" />
+<meta name="twitter:description" content="" />
 <meta name="twitter:image" content="{{ '/assets/image/1024.png' | relative_url }}" />
 <meta name="theme-color" content="#203363" />
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/image/1024.png' | relative_url }}" />
