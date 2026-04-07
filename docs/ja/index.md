@@ -6,5 +6,5 @@ title: トップ
 
 [Change language](..)
 
-- [Version 1](v1)
+- [バージョン 1](v1)
 - [ライセンス比較](compare)

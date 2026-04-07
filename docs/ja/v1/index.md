@@ -1,7 +1,7 @@
 ---
 layout: license
 lang: ja
-title: Version 1
+title: バージョン 1
 version: 1
 date: 2026-3-6
 ---
