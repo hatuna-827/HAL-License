@@ -1,24 +1,24 @@
 <!-- arg: lang, title, version, date -->
 <!doctype html>
 <html lang="{{ page.lang }}">
-	<head>
-		{% include meta.html %}
-	</head>
-	<body>
-		{% capture body %}
-		<header>
-			<h1>
-				{% include back.html %}
-				<img src="{{ '/assets/image/1024.png' | relative_url }}" alt="icon" />
-				<a href="{{ '/' | relative_url }}">Hatuna Asset License (HAL)</a>
-			</h1>
-			<p>Version: {{ page.version }}</p>
-			<p>Date: {{ page.date | date_to_long_string }}</p>
-		</header>
-		<main>
-			{{ content }}
-		</main>
-		{% endcapture %}
-		{% include card.html content=body %}
-	</body>
+  <head>
+    {% include meta.html %}
+  </head>
+  <body>
+    {% capture body %}
+    <header>
+      <h1>
+        {% include back.html %}
+        <img src="{{ '/assets/image/1024.png' | relative_url }}" alt="icon" />
+        <a href="{{ '/' | relative_url }}">Hatuna Asset License (HAL)</a>
+      </h1>
+      <p>Version: {{ page.version }}</p>
+      <p>Date: {{ page.date | date_to_long_string }}</p>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    {% endcapture %}
+    {% include card.html content=body %}
+  </body>
 </html>

@@ -4,6 +4,8 @@
 {%- capture description -%}
   {%- if page.lang == 'ja' -%}
     {{ page.title }} | 日本語
+  {%- elsif page.lang == 'eo' -%}
+    {{ page.title }} | Esperanto
   {%- elsif page.lang == 'en' -%}
     {{ page.title }} | English
   {%- else -%}
@@ -26,7 +28,10 @@
 <meta name="twitter:description" content="" />
 <meta name="twitter:image" content="{{ '/assets/image/1024.png' | relative_url }}" />
 <meta name="theme-color" content="#203363" />
-<link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/image/1024.png' | relative_url }}" />
+<link
+  rel="shortcut icon"
+  type="image/x-icon"
+  href="{{ '/assets/image/1024.png' | relative_url }}" />
 <link rel="apple-touch-icon" href="{{ '/assets/image/1024.png' | relative_url }}" />
 <link rel="stylesheet" href="{{ '/assets/css/default.css' | relative_url }}" />
 <script src="{{ '/assets/js/default.js' | relative_url }}" type="module"></script>
